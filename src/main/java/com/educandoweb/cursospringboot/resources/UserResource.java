@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.educandoweb.cursospringboot.entities.User;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/Users")
 public class UserResource {
 
 	@GetMapping
